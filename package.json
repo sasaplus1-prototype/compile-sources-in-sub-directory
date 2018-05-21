@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "a": "file:local_modules/a/a-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "fixpack": "^2.3.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "fixpack": "fixpack"
+  }
+}
